@@ -452,23 +452,23 @@ section{
     font-size: 8rem;
 }
 
-.services{
+.skills{
     background-color: var(--second-bg-color);
     color: black;
 }
 
-.services h2{
+.skills h2{
     color: var(--text-color);
 }
 
-.services-container{
+.skills-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 2.5rem;
 }
 
-.services-box{
+.skills-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -480,14 +480,14 @@ section{
     transition: 0.4s ease-in-out;
 }
 
-.services-box:hover{
+.skills-box:hover{
     background: var(--second-bg-color);
     color: var(--main-color);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
 
-.services-info{
+.skills-info{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -496,19 +496,19 @@ section{
     padding: 5rem;
 }
 
-.services-info h4{
+.skills-info h4{
     font-size: 4rem;
     margin: 2rem 0;
     font-weight: 800;
 }
 
-.services-info p{
+.skills-info p{
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.7;
 }
 
-.services-info i{
+.skills-info i{
     font-size: 8rem;
 }
 
