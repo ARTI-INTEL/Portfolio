@@ -11,7 +11,8 @@
     --bg-color: #080808;
     --second-bg-color: #0f0f0f;
     --text-color: white;
-    --main-color: #ea580c;
+    --main-color: #4682B4;
+    --secdary-color: #87CEEB;
 }
 
 html{
@@ -59,8 +60,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #FF1D15 100%
+        var(--main-color) 10%,
+        var(--secdary-color) 100%
     );
     background-clip: text;
     color: transparent;
@@ -86,8 +87,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #FF1D15 100%
+        var(--secdary-color) 10%,
+        var(--main-color) 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
@@ -559,6 +560,10 @@ section{
 
 .project-card p{
     font-size: 1.6rem;
+}
+
+.project .btn{
+    align-self: center;
 }
 
 .contact{
